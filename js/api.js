@@ -1,4 +1,4 @@
-const apiURL = "http://localhost:3001/productos";
+const apiURL = "https://673eaf3ca9bc276ec4b54929.mockapi.io/Productos";
 
 // Método GET: Obtener todos los productos
 export async function obtenerProductos() {
