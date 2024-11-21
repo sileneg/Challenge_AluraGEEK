@@ -446,10 +446,13 @@ nav ul li a:hover {
 }
 
 .no-productos {
-    display: none;
-    font-size: 1.2em;
-    color: #ccc;
-    font-style: italic;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .btn-oferta {
@@ -506,6 +509,7 @@ nav ul li a:hover {
     padding: 15px 15px 15px 50px;
     width: 400px;
     font-size: 1.2em;
+    color: #000;
     border: none;
     border-radius: 6px;
     box-shadow: inset 4px 12px 15px rgba(0, 0, 0, 0.3);
