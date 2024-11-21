@@ -1,0 +1,60 @@
+{
+  "productos": [
+    {
+      "id": "80d1b8cc-3d53-41a0-871f-04badb781d8e",
+      "nombre": "Piernera Dama",
+      "precio": "40000.00",
+      "descripcion": "Son hechas en liona TRH 1000,  riata de seguridad pesada, cremallera de 8 y 6, slyder son eka, malla panal, malla sandwich",
+      "imagen": "https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/460021275_122106845582521745_4683411680264699594_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF5XxsHvjSErzZRoaGZbDOHXeVjA0vad3Fd5WMDS9p3cRDF7FBhPCBwgYXqfHcuWAwDKF4nrjRXAlhK28juLfGU&_nc_ohc=AglJ0NWEaU8Q7kNvgGFDr3l&_nc_zt=23&_nc_ht=scontent.feoh2-1.fna&_nc_gid=AN2Pfj1t18KN2dbsuTBwkUB&oh=00_AYC8qXgZEJWsFwElzHdFOBATr6uGY7ATjZZEZgYk5PQHJg&oe=674083E9"
+    },
+    {
+      "id": "62b4c7f0-81cb-4482-afad-f393d1c929b3",
+      "nombre": "Piernera",
+      "precio": "40000.00",
+      "descripcion": "Son hechas en liona TRH 1000,  riata de seguridad pesada, cremallera de 8 y 6, slyder son eka, malla panal, malla sandwich",
+      "imagen": "https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/460581674_122106845636521745_3978666523441647567_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHSYKTGLx3lTadbQifHq1vWu2-Hs4FFyv27b4ezgUXK_ZNXR3o1JCCVWZh4aIilEMlPQxZJz-vxH4pu1_l76ct_&_nc_ohc=I8umHCuN8fcQ7kNvgF1opYc&_nc_zt=23&_nc_ht=scontent.feoh2-1.fna&_nc_gid=AHpYKNrq1ooHSW_5fGMmEDy&oh=00_AYCi4PwPrIGPoNckFFVgTozQ6J6YP1YT9lfbEUPdXX3lug&oe=6740A74A"
+    },
+    {
+      "nombre": "Pechera",
+      "precio": "60000.00",
+      "descripcion": "Son hechas en liona TRH 1000,  riata de seguridad pesada, cremallera de 8 y 6, slyder son eka, malla panal, malla sándwich",
+      "imagen": "https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/460562981_122106845672521745_5100708146920724870_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFRcDp_elpfd3_aJx7MtesHJopvCFMG7c8mim8IUwbtz4ZNaWCrT_N1OyWSagDzPd90eJJg_mSVCAaVOfk8WA4Z&_nc_ohc=yPLcZ5HGjvEQ7kNvgHy_5FE&_nc_zt=23&_nc_ht=scontent.feoh2-1.fna&_nc_gid=AFMNUwFuVgCBxRZGvEZ5Sft&oh=00_AYCQ9054baOSWIylcLK4yrpggDxKbQz6YK8d2qxwvYPslQ&oe=67409E5D",
+      "id": "813efac8-81ed-4af2-8757-1871984ab7bb"
+    },
+    {
+      "id": "624db695-b0db-4f84-8744-e02dd4e9a781",
+      "nombre": "Pechera Peluqueria",
+      "precio": "30000.00",
+      "descripcion": "son hechas en cuero",
+      "imagen": "https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/460637312_122106845882521745_5652209017590838679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGRRWng85_3ZoZxhwg19Z5AI2Zub0vxVZ4jZm5vS_FVnqiu8Mo0gEEcFCLpA8FUmz9PG-uuyCgaC8WRwRpC2VaK&_nc_ohc=oEPSixfbQR8Q7kNvgFBN4lq&_nc_zt=23&_nc_ht=scontent.feoh2-1.fna&_nc_gid=AqZi8W-gHMyTnMptRCVqvyL&oh=00_AYAs-pDBh0FLKKxG7gxUSYBrmtyRMfH5oeV_QLvk8LQnCw&oe=67408F23"
+    },
+    {
+      "id": "6ce57942-6082-43b5-a7bf-2b9dba6106c7",
+      "nombre": "Pechera",
+      "precio": "70000.00",
+      "descripcion": "Son hechas en liona TRH 1000,  riata de seguridad pesada, cremallera de 8 y 6, slyder son eka, malla panal, malla sándwich",
+      "imagen": "https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/460471487_122106794948521745_2661879967876157872_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF4IzJI7ysefeQmoUtRXCJ9lftZH5cwpL6V-1kflzCkvjMRnbs33VSGG4bgf1bCz3gDJcf_eaWhB9Kx52gmdhu3&_nc_ohc=TFHXFkm4CCgQ7kNvgE1eOKP&_nc_zt=23&_nc_ht=scontent.feoh2-1.fna&_nc_gid=AizwmtBxaPs-kYh0djqg44S&oh=00_AYCu2byRPwN3gdfTJ99Gisy-sRGWaV-4_mu-dhqLiWl_Ag&oe=6740A04E"
+    },
+    {
+      "id": "59004a9b-282c-4f6e-83e9-a4b915363c10",
+      "nombre": "Pechera dos",
+      "precio": "1000.00",
+      "descripcion": "Son hechas en lona TRH 1000,  riata de seguridad pesada, cremallera de 8 y 6, slyder son eka, malla panal, malla sándwich",
+      "imagen": "https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/460637312_122106845882521745_5652209017590838679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGRRWng85_3ZoZxhwg19Z5AI2Zub0vxVZ4jZm5vS_FVnqiu8Mo0gEEcFCLpA8FUmz9PG-uuyCgaC8WRwRpC2VaK&_nc_ohc=oEPSixfbQR8Q7kNvgFBN4lq&_nc_zt=23&_nc_ht=scontent.feoh2-1.fna&_nc_gid=AqZi8W-gHMyTnMptRCVqvyL&oh=00_AYAs-pDBh0FLKKxG7gxUSYBrmtyRMfH5oeV_QLvk8LQnCw&oe=67408F23"
+    },
+    {
+      "id": "5d2006b9-d542-4203-a4b6-d6de52936dac",
+      "nombre": "Pechera",
+      "precio": "40000.00",
+      "descripcion": "Pechera en lona",
+      "imagen": "https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/460471487_122106794948521745_2661879967876157872_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF4IzJI7ysefeQmoUtRXCJ9lftZH5cwpL6V-1kflzCkvjMRnbs33VSGG4bgf1bCz3gDJcf_eaWhB9Kx52gmdhu3&_nc_ohc=TFHXFkm4CCgQ7kNvgFbgucW&_nc_zt=23&_nc_ht=scontent.feoh2-1.fna&_nc_gid=AEvpuuqJEJDVasNtpv5B1Ls&oh=00_AYAsCWxnQ8xuHSZP6nfDLH4EmFh5B595ois6EJaHd3dNvQ&oe=6741490E"
+    },
+    {
+      "id": "27a15c35-fb4a-47ab-b3e3-bc278bb52938",
+      "nombre": "Zapatos Dama",
+      "precio": "80000.00",
+      "descripcion": "Zapatos deportivos de color azul estilo botas",
+      "imagen": "https://scontent.fibe1-1.fna.fbcdn.net/v/t39.30808-6/460196922_122106827204521745_4549152544351121149_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeG3ZiVRpOj6p5v-r2D27FtAIN2--COVDtgg3b74I5UO2KsKK32Xl43ACgDaSdavcEiWwRxS774_Y-kikA1nzVgc&_nc_ohc=pFlxszhUW0sQ7kNvgGS3Ap9&_nc_zt=23&_nc_ht=scontent.fibe1-1.fna&_nc_gid=A5Bn6XI4hvP7WhCXDzqln25&oh=00_AYCry_aHfzom73jr8F4Q7SeJ-kIFUzIK5IsNsiAN25jmWw&oe=67441AA5"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garlix Innovación</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/image/logo.jpg" type="image/x-icon" >
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="/image/logo.jpg" alt="Logo Alura Geek" class="logo-img">
+            <span>Garlix Innovación</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a id="btnMenuAgregar" href="#productos">Agregar Producto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Banner -->
+        <section class="banner">
+            <div class="carousel">
+                <div class="carousel-item active">
+                    <img src="/image/descuento.png" alt="Ofertas Especiales 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/descuento.png" alt="Ofertas Especiales 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/descuento1.jpg" alt="Ofertas Especiales 3">
+                </div>
+
+                <!-- Flechas de navegación -->
+                <button class="carousel-control prev" onclick="changeSlide(-1)">❮</button>
+                <button class="carousel-control next" onclick="changeSlide(1)">❯</button>
+            </div>
+            <div class="banner-content">
+                <h2>Descuentos Especiales</h2>
+                <button class="btn-oferta">Ver Ofertas</button>
+            </div>
+        </section>
+
+        <!-- Buscador -->
+        <section class="buscador">
+            <h3>Encontrar Productos</h3>
+            <div class="buscador-input">
+                <input type="text" id="buscarProducto" placeholder="Buscar por nombre de producto...">
+                <button onclick="buscarProducto()">Buscar</button>
+                <button id="mostrarTodos">Mostrar Todos</button>
+            </div>
+        </section>
+
+        <!-- Sección de Productos -->
+        <section class="productos-section">
+            <h1>Mis Productos</h1>
+            <div id="productos" class="productos-grid"></div>
+            <div id="pagination" class="pagination">
+                <button class="page-control prev" onclick="prevPage()">«</button>
+                <span id="page-numbers"></span>
+                <button class="page-control next" onclick="nextPage()">»</button>
+            </div>
+            <p id="noProductos" class="no-productos">No se han agregado productos.</p>
+        </section>
+    </main>
+
+    <a href="#" id="scrollUp" class="scroll-up">
+        &#8679;
+    </a>
+
+    <!-- Formulario con modal -->
+    <div id="overlay" style="display: none;"></div>
+    <div id="formularioProducto" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-btn" onclick="ocultarFormulario()">×</span>
+            <div class="form-header" id="modalHeader">
+                <img src="/image/logo.jpg" alt="Logo Empresa" class="logo-small">
+                <h2 id="formTitle">Agregar Nuevo Producto</h2>
+            </div>
+            <form enctype="multipart/form-data" id="productoForm">
+                <div class="form-group" id="nombre-group">
+                    <input type="text" id="nombre" placeholder="Nombre del Producto" required>
+                </div>
+                <div class="form-group" id="precio-group">
+                    <input type="number" id="precio" placeholder="Precio" required>
+                </div>
+                <div class="form-group" id="descripcion-group">
+                    <textarea id="descripcion" placeholder="Descripción" required></textarea>
+                </div>
+
+                <div class="form-group" id="imagen-url-group">
+                    <input type="url" id="imagenUrl" placeholder="URL de la Imagen (opcional)">
+                </div>
+
+                <div class="form-group" id="imagen-file-group">
+                    <input type="file" id="imagenFile" accept="image/*" placeholder="Subir Imagen (opcional)">
+                </div>
+
+                <div class="button-group">
+                    <button type="button" id="btnAgregarProducto">Agregar Producto</button> <!-- Botón para agregar -->
+                    <button type="button" id="btnActualizarProducto" style="display: none;">Actualizar Producto</button> <!-- Botón para actualizar -->
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <img src="/image/logosilel.png" alt="Logo Desarrollador">
+        <p>Desarrollado por Silene González Quiroz</p>
+        <p>&copy; 2024 - Para Alura Geek</p>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script type="module" src="./js/api.js"></script>
+    <script type="module" src="./js/productos.js"></script>
+</body>
+</html>
